@@ -1,0 +1,74 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11032801572,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.setUpiosDriver(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "iOS sample scenario",
+        "description": "",
+        "id": "sample-common-feature;ios-sample-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1952666848,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.teardowniosDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152907750,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am testing the sample iOS",
+            "match": {
+              "location": "LoginSteps.i_am_testing_the_sample_iOS()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78507,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see it is success",
+            "match": {
+              "location": "LoginSteps.i_should_see_it_is_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@debugios"
+          }
+        ]
+      }
+    ],
+    "name": "sample common feature",
+    "description": "",
+    "id": "sample-common-feature",
+    "keyword": "Feature",
+    "uri": "featureIOS.feature"
+  }
+]
